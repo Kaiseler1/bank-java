@@ -4,6 +4,7 @@ public class Conta {
 	private String nif;
 	private String iban;
 	private double saldo;
+	public static String tipoConta = "Poupanca";
 	
 	public Conta() {}
 	
