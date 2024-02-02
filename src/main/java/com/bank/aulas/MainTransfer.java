@@ -18,7 +18,7 @@ public class MainTransfer {
 		
 		nossaConta.transf(valorTrans, contaCredit);
 		
-		System.out.println("Saldo atual: "+ nossaConta.getSaldo());
+		System.out.println(nossaConta.getSaldo() <= 0 ? "Saldo baixo" : "Saldo atual: "+ nossaConta.getSaldo());
 		System.out.println("Saldo atual conta crédito: "+ contaCredit.getSaldo());
 
 	}
